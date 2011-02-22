@@ -15,8 +15,8 @@ class GoogleMapTest < Test::Unit::TestCase
     (1..5).each do |i|
       @map.markers << marker_factory
       assert_equal @map.markers.length, i
-      puts @map.to_html
-      assert @map.to_html.include? "google_map_marker_#{i} = new GMarker( new GLatLng( 40, -100 )  );"
+      # puts @map.to_html
+      assert @map.to_html.include? "    google_map_marker_#{i} = new GMarker( new GLatLng( 40, -100 )   );"
     end
   end
   

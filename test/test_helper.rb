@@ -2,7 +2,7 @@ ENV['RAILS_ENV'] = 'test'
 
 require 'test/unit'
 require 'rubygems'
-require 'actionpack'
+require 'action_pack'
 require 'action_view'
 require 'lib/unbacked_dom_id'
 require 'lib/google_map'
