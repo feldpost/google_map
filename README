@@ -1,5 +1,5 @@
 ======================================================
-GoogleMaps
+GoogleMap
 ======================================================
 A RubyGem that and makes generating google maps easy as pie.
 
@@ -7,7 +7,7 @@ A RubyGem that and makes generating google maps easy as pie.
 ======================================================
 INSTALL
 ======================================================
-gem install google_maps
+gem install google_map
 
 
 ======================================================
