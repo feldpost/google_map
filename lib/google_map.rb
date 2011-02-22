@@ -1,4 +1,6 @@
 module GoogleMap
+  require 'unbacked_dom_id'
+  
   # require 'google_map/bounding_box'
   # require 'google_map/clusterer'
   require 'google_map/geo_xml'
