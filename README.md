@@ -23,9 +23,7 @@ CONFIGURATION
 MAP CONTROLS
 ------------
 
-maps_controller.rb
---------------------------
-
+`maps_controller.rb`
     class MapsController < ApplicationController
     	def	show
     		@map = GoogleMap::Map.new
@@ -60,9 +58,7 @@ maps_controller.rb
 MAP CENTERING AND ZOOM
 ----------------------
 
-maps_controller.rb
-------------------
-
+`maps_controller.rb`
     class MapsController < ApplicationController
     	def	show
     		@map = GoogleMap::Map.new
@@ -74,8 +70,7 @@ maps_controller.rb
 MAP CENTERING USING BOUNDS
 --------------------------
 
-maps_controller.rb
---------------------------
+`maps_controller.rb`
     class MapsController < ApplicationController
     	def	show
     		@map = GoogleMap::Map.new
@@ -87,8 +82,7 @@ maps_controller.rb
 SIMPLE MARKER USAGE
 -------------------
 
-maps_controller.rb
---------------------------
+`maps_controller.rb`
     class MapsController < ApplicationController
     	def	show
     		@map = GoogleMap::Map.new
@@ -99,8 +93,7 @@ maps_controller.rb
     	end
     end
 
-maps/show.html.erb
--------------------------
+`maps/show.html.erb`
     <%= @map.to_html %>
     <div style="width: 500px; height: 500px;">
       <%= @map.div %>
@@ -111,11 +104,11 @@ Advanced Marker Usage
 ---------------------
 
 Available icon classes:
+
 * GoogleMap::LetterIcon.new(@map, 'A') # letter must be uppercase
 * GoogleMap::SmallIcon.new(@map, 'yellow')
 
-maps_controller.rb
---------------------------
+`maps_controller.rb`
     class MapsController < ApplicationController
     	def	show
     		@map = GoogleMap::Map.new
@@ -132,8 +125,7 @@ maps_controller.rb
     	end
     end
 
-maps/show.html.erb
--------------------------
+`maps/show.html.erb`
     <%= @map.to_html %>
     <div style="width: 500px; height: 500px;">
       <%= @map.div %>
@@ -143,8 +135,7 @@ maps/show.html.erb
 PLOTTING POLYLINE ROUTES
 ------------------------
 
-maps_controller.rb
-------------------
+`maps_controller.rb`
     class MapsController < ApplicationController
     	def	show
     		@map = GoogleMap::Map.new
@@ -165,8 +156,7 @@ maps_controller.rb
     	end
     end
 
-maps/show.html.erb
--------------------------
+`maps/show.html.erb`
     <%= @map.to_html %>
     <div style="width: 500px; height: 500px;">
       <%= @map.div %>
