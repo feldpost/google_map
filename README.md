@@ -14,8 +14,8 @@ CONFIGURATION
 
   Set your Google Maps API Key in environment.rb (or somewhere else if you'd prefer)
 	I'd suggest copying the configuration code out of your environment.rb and into an initializer named geokit
-
   This key is good for localhost:3000, signup for more at http://www.google.com/apis/maps/signup.html
+  
   GOOGLE_APPLICATION_ID = "ABQIAAAA3HdfrnxFAPWyY-aiJUxmqRTJQa0g3IQ9GZqIMmInSLzwtGDKaBQ0KYLwBEKSM7F9gCevcsIf6WPuIQ"
 
 # Usage
