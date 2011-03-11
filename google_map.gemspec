@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Jeff Dutil"]
   s.email       = ["JDutil@BurlingtonWebApps.com"]
   s.homepage    = "https://github.com/jdutil/google_map"
-  s.summary     = %q{Extends geokit and gives convenient helpers for adding google maps to your Rails applicaiton.}
-  s.description = %q{Extends geokit and gives convenient helpers for adding google maps to your Rails applicaiton.}
+  s.summary     = %q{Extends geokit and gives convenient helpers for adding google maps to your application.}
+  s.description = %q{Extends geokit and gives convenient helpers for adding google maps to your application.}
 
   s.rubyforge_project = "google_map"
 
