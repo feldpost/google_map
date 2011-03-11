@@ -4,9 +4,9 @@ A RubyGem that and makes generating google maps easy as pie.
 
 INSTALL
 -------
-
+In your `Gemfile`, add the following dependency:
+    gem 'google_map'
 Run:
-    $ gem install google_map
     $ bundle install
 
 CONFIGURATION
