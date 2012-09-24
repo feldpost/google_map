@@ -218,8 +218,8 @@ module GoogleMap
       return "center_#{dom_id}();"
     end
 
-    def div(width = '100%', height = '100%')
-      "<div id='#{dom_id}' style='width: #{width}; height: #{height}'></div>"
+    def div(width = '100%', height = '100%', css_class = "google-map")
+      "<div id='#{dom_id}' class='#{css_class}' style='width: #{width}; height: #{height}'></div>"
     end
 
   end
